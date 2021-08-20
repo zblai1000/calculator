@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="350.0" maxWidth="450.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.controller.view.CalculatorController">
+   <children>
+      <Label fx:id="screen" layoutX="14.0" layoutY="29.0" prefHeight="70.0" prefWidth="176.0" styleClass="screen">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutY="160.0" prefHeight="60.0" prefWidth="240.0">
+         <children>
+            <Button onAction="#handleClickSeven" prefHeight="60.0" prefWidth="60.0" text="_7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickEight" prefHeight="60.0" prefWidth="60.0" text="_8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickNine" prefHeight="60.0" prefWidth="60.0" text="_9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickDivision" prefHeight="60.0" prefWidth="60.0" text="_/ (÷)">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="220.0" prefHeight="60.0" prefWidth="240.0">
+         <children>
+            <Button onAction="#handleClickFour" prefHeight="60.0" prefWidth="60.0" text="_4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickFive" prefHeight="60.0" prefWidth="60.0" text="_5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickSix" prefHeight="60.0" prefWidth="60.0" text="_6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickMultiplication" prefHeight="60.0" prefWidth="60.0" text="_x">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="280.0" prefHeight="60.0" prefWidth="240.0">
+         <children>
+            <Button onAction="#handleClickOne" prefHeight="60.0" prefWidth="60.0" text="_1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickTwo" prefHeight="60.0" prefWidth="60.0" text="_2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickThree" prefHeight="60.0" prefWidth="60.0" text="_3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickSubtraction" prefHeight="60.0" prefWidth="60.0" text="_-">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="340.0" prefHeight="60.0" prefWidth="240.0">
+         <children>
+            <Button onAction="#handleClickDecimal" prefHeight="60.0" prefWidth="60.0" text="_.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickZero" prefHeight="60.0" prefWidth="60.0" text="_0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickEqual" prefHeight="60.0" prefWidth="60.0" text="_=">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickAddition" prefHeight="60.0" prefWidth="60.0" text="+ (_a)">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="operatorScreen" layoutX="197.0" layoutY="49.0" prefHeight="50.0" prefWidth="43.0" styleClass="screen">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_RIGHT" layoutY="110.0" prefHeight="50.0" prefWidth="240.0">
+         <children>
+            <Button onAction="#handleClickLeftParenthesis" prefHeight="50.0" prefWidth="60.0" text="[_L] (">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickRightParenthesis" prefHeight="50.0" prefWidth="60.0" text=") [_R]">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button onAction="#handleClickClear" prefHeight="50.0" prefWidth="120.0" text="_Clear" textAlignment="RIGHT">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane fx:id="scrollPane" layoutX="240.0" prefHeight="400.0" prefWidth="310.0" styleClass="scrollPane" />
+   </children>
+</AnchorPane>

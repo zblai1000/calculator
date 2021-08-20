@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\zblai\ScalaProjects\calculator\src\main\scala\view\CalculatorController.scala:743:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: AnyRef[0m
+[0m[[0m[31merror[0m] [0m[0mNote: an implicit exists from scala.Int => java.lang.Integer, but[0m
+[0m[[0m[31merror[0m] [0m[0mmethods inherited from Object are rendered ambiguous.  This is to avoid[0m
+[0m[[0m[31merror[0m] [0m[0ma blanket implicit which would convert any scala.Int to any AnyRef.[0m
+[0m[[0m[31merror[0m] [0m[0mYou may wish to use a type ascription: `x: java.lang.Integer`.[0m
+[0m[[0m[31merror[0m] [0m[0m			addToValue(Number.zero)[0m
+[0m[[0m[31merror[0m] [0m[0m			                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

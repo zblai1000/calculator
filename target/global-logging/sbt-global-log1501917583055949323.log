@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(4c7cc633-9ce0-430c-80cd-f6f8b476242d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@6f0a4e30, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\zblai\ScalaProjects\calculator\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\zblai\ScalaProjects\calculator\src\main\scala\view\CalculatorController.scala:201:33: not enough arguments for method runUnaryCalculation: (num: scala.math.BigDecimal, operatorUsed: String)scala.math.BigDecimal.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter operatorUsed.[0m
+[0m[[0m[31merror[0m] [0m[0m			number1 = runUnaryCalculation(number2. operator)[0m
+[0m[[0m[31merror[0m] [0m[0m			                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed Jul 6, 2021 11:24:20 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

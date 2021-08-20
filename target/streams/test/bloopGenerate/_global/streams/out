@@ -1,0 +1,4 @@
+[debug] [calculator-test] Classpath dependencies List()
+[debug] [calculator-test] Dependencies from configurations List(calculator)
+[debug] Bloop wrote the configuration of project 'calculator-test' to 'C:\Users\zblai\ScalaProjects\calculator\.bloop\calculator-test.json'
+[success] Generated .bloop\calculator-test.json

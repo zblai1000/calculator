@@ -1,0 +1,45 @@
+.background {
+    -fx-background-color: #FFFFFF;
+    /* -fx-background-color: transparent; */
+    /* -fx-opacity: 0.5; */
+}
+
+.screen {
+
+    -fx-background-color: #FFFFFF;
+}
+
+/* .root { -fx-background-color: transparent; } */
+
+
+.button {
+    -fx-padding: 0; 
+    -fx-border-color: #000000c0;
+    -fx-border-width: 0.2;
+    -fx-background-radius: 0;
+    -fx-background-color: #f5981f94;
+    /* -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif; */
+    -fx-font-size: 11pt;
+    -fx-text-fill: #000000;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #f5981fcc;
+}
+
+.scrollPane {
+
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+}
+
+.menuBar {
+
+    -fx-background-color: #ffc880;
+}
+
+.menuBar:hover {
+
+    -fx-background-color: #fda635;
+}

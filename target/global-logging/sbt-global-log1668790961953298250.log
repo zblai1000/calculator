@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(!if(value.contains("(") || value.contains(")")){println("5 equal")number1 = BigDecimal(checkParenthesis(value))handleCalculation(), Some(84480d42-4988-44ba-8074-76dc4bc9834b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

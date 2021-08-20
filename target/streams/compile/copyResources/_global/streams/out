@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\zblai\ScalaProjects\calculator\src\main\resources\images\icon.png,C:\Users\zblai\ScalaProjects\calculator\target\scala-2.12\classes\images\icon.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\zblai\ScalaProjects\calculator\src\main\resources\calculator\view\Calculator.fxml,C:\Users\zblai\ScalaProjects\calculator\target\scala-2.12\classes\calculator\view\Calculator.fxml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\zblai\ScalaProjects\calculator\src\main\resources\calculator\view\RootLayout.fxml,C:\Users\zblai\ScalaProjects\calculator\target\scala-2.12\classes\calculator\view\RootLayout.fxml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\zblai\ScalaProjects\calculator\src\main\resources\calculator\view\style.css,C:\Users\zblai\ScalaProjects\calculator\target\scala-2.12\classes\calculator\view\style.css)[0m
